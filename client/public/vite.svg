@@ -1,0 +1,22 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- 
+        Favicon for "Daily Duel"
+        - Dark circular background to match the site's dark theme.
+        - Trophy icon filled with the signature "amber glow" gradient.
+    -->
+    <defs>
+        <linearGradient id="TrophyGradient" x1="50%" y1="0%" x2="50%" y2="100%">
+            <stop offset="0%" stop-color="#FBBF24" /> <!-- amber-400 -->
+            <stop offset="100%" stop-color="#D97706" /> <!-- amber-600 -->
+        </linearGradient>
+    </defs>
+
+    <!-- Dark background circle, matching the site's bg-gray-900 -->
+    <circle cx="128" cy="128" r="128" fill="#111827"/>
+
+    <!-- Trophy Icon Path -->
+    <path fill-rule="evenodd" clip-rule="evenodd" 
+        d="M82 64C82 59.5817 85.5817 56 90 56H166C170.418 56 174 59.5817 174 64V88H198C204.627 88 210 93.3726 210 100V124C210 130.627 204.627 136 198 136H174V144C174 152.837 166.837 160 158 160H98C89.1634 160 82 152.837 82 144V136H58C51.3726 136 46 130.627 46 124V100C46 93.3726 51.3726 88 58 88H82V64ZM106 160V184H150V160H106ZM98 200C98 195.582 101.582 192 106 192H150C154.418 192 158 195.582 158 200V208H98V200Z" 
+        fill="url(#TrophyGradient)"
+    />
+</svg>
